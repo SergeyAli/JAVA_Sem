@@ -80,7 +80,6 @@ public class Vector {
      *
      * @return  разность векторов
      */
-
     public Vector vectorDuff(@NotNull Vector vector){
         return new Vector(
                 x-vector.x,

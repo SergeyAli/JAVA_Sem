@@ -24,6 +24,7 @@ public class Main_1 {
             b = scanner.nextInt();
             if ((b%10 == 5) && (a%2 == 0))
         }
+
         System.out.println("result " +);
 
     }

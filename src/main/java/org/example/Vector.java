@@ -36,6 +36,7 @@ public class Vector {
      * @return длинна вектора
      */
     public double vectorLength(){
+
         return Math.sqrt(x*x+y*y+z+z);
     }
     /**
@@ -43,6 +44,7 @@ public class Vector {
      * @return возвращает скалярное произведение
      */
     public double vectorScal(Vector vector){
+
         return x* vector.x+y*vector.y+z+vector.z;
     }
     /**
@@ -79,7 +81,7 @@ public class Vector {
      *
      * @return  разность векторов
      */
-    public Vector vectorDuff(@NotNull Vector vector){
+    public Vector vectorDiff(@NotNull Vector vector){
         return new Vector(
                 x-vector.x,
                 y-vector.y,

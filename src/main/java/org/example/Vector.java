@@ -74,7 +74,6 @@ public class Vector {
         y+vector.y,
         z+vector.z);
 
-
     }
     /**
      *
